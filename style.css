@@ -1,3 +1,38 @@
+body {
+    margin: 0;
+}
+
+ul {
+    background-color: rgb(33, 150, 33);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    padding: 20px 30px;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+.active {
+    background-color:black;
+}
+
 .container {
     margin: auto;
     display: grid;
@@ -9,6 +44,6 @@
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
